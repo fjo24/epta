@@ -1,0 +1,133 @@
+#nav-mobile{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+}
+a:hover{
+  background-color: white !important;
+}
+.side-nav li>a>i{
+  float: right !important;
+}
+.hover{
+  padding: 0 !important;
+  border-bottom: 1px solid #93989E !important;
+  color: #93989E !important;
+}
+.side-nav li>a.producto{
+  height: 35px;
+  padding-left: 10px !important;
+  border-bottom: 0px !important;
+}
+.side-nav li>a.producto:hover{
+  color: #1F950C !important;
+}
+.active{
+  color: #1F950C !important;
+  background-color: white !important;
+}
+a.active i.material-icons{
+  color: #1F950C !important;
+}
+a.active{
+  border-bottom: 1px solid #1F950C !important;
+}
+div.collapsible-body a.hover{
+  font-size: 15px;
+}
+a.waves-admin{
+  font-size: 17px !important;
+}
+@media only screen and (max-width:992px){
+  #nav-mobile{
+    transform: translateX(-1000%) !important;
+  } 
+      
+}
+.sub-breadcrumb{
+  box-shadow: none;
+}
+.sub-breadcrumb a{
+  color: #93989E !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+}
+.breadcrumb:before{
+  color: #93989E;
+}
+.div-sub{
+  border: 1px solid rgba(147,152,158, 0.30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.producto{
+  color: #1F950C;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(147,152,158, 0.30);
+}
+.producto-hover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.producto-hover:hover{
+  background-image: url("/../img/generico/mas.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center center;
+  background-color: rgba(54,54,54,0.8);
+}
+
+/*GALERIA*/
+
+.galeria{
+  background-color: white;
+  border: 1px solid #1F950C;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 0px;
+  color: #1F950C;
+}
+.galeria:hover{
+  background-color: #ebebeb;
+}
+.codigo{
+  color: #1F950C;
+  display: inline-block;
+  font-weight: 700;
+}
+.titulo-galeria{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #858585;
+  font-size: 25px;
+  margin-top: 0px !important;
+}
+.cont-img{
+  border: 1px solid #004CA2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+thead{
+  background-color: #1F950C;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+
+}
+thead tr th{
+  padding-left: 20px;
+}
+tbody tr{
+  border-bottom: 1px solid #1F950C;
+}
+tbody tr th{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #333333;
+
+}

@@ -1,0 +1,40 @@
+.titulo-servicio> p{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: #70B6DC;
+}
+.subrayado{
+	width: 35px;
+	height: 1px;
+	background-color: #70B6DC;
+	position: relative;
+	left: 3px;
+	bottom: 10px;
+}
+@media only screen and (min-width: 345px){
+	.titulo-servicio>p{
+	    margin-top: 60px;
+	}
+}
+@media only screen and (max-width: 440px){
+	.titulo-servicio>p{
+	    font-size: 30px;
+	}
+	.contenido > .nomb-servicio{
+		font-size: 25px !important;
+	}
+}
+.contenido > p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300px;
+	font-size: 16px;
+	color: #525252;
+	margin-top: 20px;
+}
+.contenido > .nomb-servicio{
+	font-weight: 300px;
+	font-size: 37px;
+	color: #70B6DC;
+	text-transform: capitalize;
+	text-align: left;
+}

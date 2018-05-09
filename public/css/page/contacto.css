@@ -1,0 +1,26 @@
+.datos{
+	position: absolute;
+    bottom: 0px;
+    background-color: white;
+    box-shadow: 5px 10px 10px #ebebeb;
+    left: 5%;
+}
+.contacto{
+	background-color: rgba(240,240,240,0.20);
+	padding: 10px;
+	color: #666666;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+}
+.boton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boton .btn{
+	background-color: white;
+	border: 1px solid #1F950C;
+	color: #1F950C;
+	border-radius: 0px;
+}

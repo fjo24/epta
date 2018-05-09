@@ -1,0 +1,196 @@
+/*BUSCADOR*/
+.dropdown-menu {
+	right: 0% !important;
+	left: -200% !important;
+	background-color: #FFFFFF !important;
+}
+header .nav-wrapper #buscador {
+  float: right;
+
+}
+header .nav-wrapper #buscador input[type=search] {
+	
+  width: 10px;
+    height: 35px;
+    padding-left: 25px;
+    color: transparent;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #1F950C;
+    border-radius: 50px;
+    background: white no-repeat url(../img/generico/lupa.png) 0 center;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+
+
+}
+#buscador input::placeholder {
+  color: white;
+}
+header .nav-wrapper #buscador input[type=search]:hover {
+  background-color: #1F950C;
+  color: transparent;
+}
+header .nav-wrapper #buscador input[type=search]:focus {
+  width: 200px;
+  color: transparent;
+  cursor: auto;
+   border: 0px;
+   background-color: white;
+}
+/*--*/
+.dropdown-content-mine{
+    top: 100% !important;
+}
+.dropdown-content li>a{
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+}
+.dropdown-content li>a:hover{
+  color: #1F950C;
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+nav{
+	background-color: white;
+	color: black;
+}
+nav.header a i.li-ppal{
+	color: black;
+
+}
+@media only screen and (max-width: 600px){
+	.logo{
+		width: 150px;
+	}
+}
+@media only screen and (min-width: 601px){
+	nav.header{
+		height: 150px;
+    	line-height: 150px;
+    	background-color: white;
+	}
+	.brand-logo{
+		display: flex !important;
+		margin-left: 7%;
+	}
+	.nav-wrapper{
+		display: flex;
+		align-items: center;
+	}
+	.cont{
+		position:  absolute; right: 0; margin-right: 7%;
+	}
+}
+ul.right li a.li-ppal{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.circle{
+    position:  absolute;
+    border: 1px solid #1F950C;
+    height:  50px;
+    width:  50px;
+    border-radius:  50px;
+}
+.language{
+	position:  relative; display:  flex; align-items:  center; justify-content:  center;
+  height: 150px;
+}
+
+a.li-ppal:hover{
+  background-color: white !important;
+  border-bottom: 5px solid #1F950C;
+  height: 150px;
+  background-color: white !important;
+}
+.active-ppal{
+  border-bottom: 5px solid #1F950C;
+  height: 150px;
+  background-color: white !important;
+}
+
+/*footer*/
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: rgba(51,51,51,0.89);
+    padding: 0px 7%;
+}
+.titulo-footer{
+  font-size: 16px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+.links{
+  display: inline-flex;
+}
+@media only screen and (min-width:1276px){
+  .padding-in{
+    padding-left: 110px !important;
+  }
+}
+#dropdown1{
+  width: 250px !important;
+}
+
+/*idiomas*/
+
+.idioma{
+  position: relative;
+  display: flex;
+}
+.idioma:hover .idiomas .icon-i{
+  height: 32;
+  margin-top: 10px;
+  height: 35px;
+  width: 35px;
+  opacity: 1;
+  font-size: 12px;
+  transition: 0.4s;
+}
+.idioma a.icon-i{
+  background: #fff;
+  color: #1F950C;
+  border: 1px solid #1F950C;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.idiomas{
+  position: absolute;
+  top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35px;
+  left: 15px;
+  z-index: 1000;
+}
+
+.idiomas a.icon-i{
+  display: block;
+  margin-top: 0px;
+  margin-left: 0;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  opacity: 0;
+  transition: 0.4s;
+}

@@ -1,0 +1,56 @@
+.cabecera{
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-cabecera{
+	position: absolute;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 65px;
+	line-height: 1;
+}
+.titulo-empresa{
+	color: #1F950C;
+	font-size: 35px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.barra{
+	border-top: 2px solid #1F950C;
+	display: inline-block;
+	margin: 1% 0px;
+}
+.contenido-empr p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333333;
+	font-size: 18px;
+	margin-top: 0px;
+}
+.mision{
+	margin: 0px;
+	background-color: #EEEEEE;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-mision{
+	color: #1F950C;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 35px;
+	margin-top: 0px;
+}
+.padding-mision{
+	padding: 0px 7% !important;
+	padding-left: 3% !important;
+}
+.contenido-mision{
+	color: #363636;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+@media only screen and (max-width:730px){
+  .titulo-cabecera{
+    font-size: 25px;
+  }
+}
